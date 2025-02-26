@@ -29,7 +29,7 @@ Then, install dependencies:
 ```
 poetry instal package
 ```
-▶️ **Running the Application**
+## ▶️ **Running the Application**
 Start the FastAPI serveer with poetry:
 ```
 poetry run uvicorn main:app --reload
