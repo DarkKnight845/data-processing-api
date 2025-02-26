@@ -12,7 +12,7 @@ The project uses  - [the Online Retail II dataset](https://archive.ics.uci.edu/m
 ✅ Data Aggregation: Groups data by a categorical column and computes **sum, mean** and **count**.  
 ✅ API Endpoints: Provides RESTful endpoints to fetch processed results.    
 ✅ Compares data loading and aggregation time for Paandas and Polars.   
-✅ File Exporting: Saves cleaned and aggregated data as **JSON** and **Parquet** files. 
+✅ File Exporting: Saves cleaned and aggregated data as **JSON** and **Parquet** files.     
 ✅ Testing: Implements pytest for testing API and data processing functions.
 
 ## 🛠️ Installation Requirements
