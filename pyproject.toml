@@ -1,0 +1,27 @@
+[project]
+name = "data-processing-api"
+version = "0.1.0"
+description = "\"FastAPI-based web service that processes large datasets using Polars and Pandas\""
+authors = [
+    {name = "Adeyemi",email = "ayemiade2020@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.poetry.dependencies]
+fastapi = "^0.109.0"
+polars = "^1.17.1"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.109.0"
+polars = "^1.17.1"
+pandas = "^2.2.3"
+uvicorn = "^0.27.0"
+pytest = "^8.3.4"
+httpx = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
